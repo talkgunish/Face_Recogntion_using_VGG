@@ -44,7 +44,7 @@ while True:
         
         # Save file in specified directory with unique name
     
-        file_name_path = '/Users/gunish/Desktop/Face_recogition_vgg16-master' + str(count) + '.jpg'
+        file_name_path = '/Users/gunish/Desktop/Face_recogition_vgg16-master/data/training' + str(count) + '.jpg'
         cv2.imwrite(file_name_path, face)
 
         # Put count on images and display live count
